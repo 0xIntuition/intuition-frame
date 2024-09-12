@@ -1,0 +1,20 @@
+{
+  "name": "intuition-frog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "frog dev",
+    "serve": "tsx src/index.tsx"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1",
+    "date-fns": "^3.6.0",
+    "frog": "latest",
+    "hono": "^4",
+    "viem": "^2.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^3.12.2"
+  }
+}
